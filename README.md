@@ -2,10 +2,10 @@
 An official source code for paper **Attributed Graph Refinement via low rank
 approximation and subspace learning**.
 
-##Environments
+## Environments
 The proposed RAG is implemented with python 3.8.8 on CPU.
 No GPU required!
-###Packages
+### Packages
 + numpy==1.22.4
 + scipy==1.6.2
 + sklearn==0.24.1
@@ -19,7 +19,7 @@ If you are using Anaconda, an identical environment can also be created by using
 ```conda env create -f environment.yml```
 
 
-##Datasets
+## Datasets
 The 6 datasets we used: Cora, Citeseer, ACM, WiKi, DBLP, PubMed are all included in the ```data/``` directory.
 All original attributed graph datasets is ```cora.mat```, ```citeseer.mat```, ```acm.mat```, ```dblp.mat```, ```pubmed.mat```. 
 
@@ -29,7 +29,7 @@ All original attributed graph datasets is ```cora.mat```, ```citeseer.mat```, ``
 ```...Z2.npz``` is the result Z of completing the second stage of RAG for each dataset.
 These can used as the inputs in the multi-stage RAG ```RAGsSC.py```.
 
-##Model
+## Model
 Our RAG model is in ```model.py```.
 
 
