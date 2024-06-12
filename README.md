@@ -33,7 +33,7 @@ These can used as the inputs in the multi-stage RAG ```RAGsSC.py```.
 Our RAG model is in ```model.py```.
 
 
-##Quick Start
+## Quick Start
 Running node clustering of RAG: ```python RAGSC.py```.
 
 Running node clustering of multi-stage RAG: ```python RAGsSC.py```.
