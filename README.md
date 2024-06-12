@@ -23,7 +23,7 @@ If you are using Anaconda, an identical environment can also be created by using
 The 6 datasets we used: Cora, Citeseer, ACM, WiKi, DBLP, PubMed are all included in the ```data/``` directory.
 All original attributed graph datasets is ```cora.mat```, ```citeseer.mat```, ```acm.mat```, ```dblp.mat```, ```pubmed.mat```. 
 
-```cora_sorted.npz``` is the version after sorting by sample category, conveniently used to visualize matrix block diagonal effects.
+```cora_sorted.npz``` and ```citeseer_sorted``` are the version after sorting by sample category, conveniently used to visualize matrix block diagonal effects.
 
 ```...Z1.npz``` is the result Z of completing the first stage of RAG for each dataset.
 ```...Z2.npz``` is the result Z of completing the second stage of RAG for each dataset.
