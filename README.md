@@ -49,3 +49,7 @@ Running node clustering of multi-stage RAG: ```python RAGsSC.py```.
 
 
 ![This is RAGSC image](https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/multi-stageRAG.png "The process of multi-stage RAG")
+<center>
+<img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/multi-stageRAG.png" width="25%" height="25%" />
+Figure 1. The process of multi-stage RAG
+</center>
