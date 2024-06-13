@@ -40,10 +40,11 @@ These can used as the inputs in the multi-stage RAG ```RAGsSC.py```.
 ## Model
 Our RAG model is in ```model.py```.
 
-<center>
+<div align="center">
 <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/multi-stageRAG.png" width="75%" height="75%" />
-Figure 1. The process of multi-stage RAG
-</center>
+<br>
+图1：多阶段RAG的过程
+</div>
 
 ## Quick Start
 Running node clustering of RAG: ```python RAGSC.py```.
