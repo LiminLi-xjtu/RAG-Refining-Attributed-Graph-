@@ -53,4 +53,10 @@ Running node clustering of multi-stage RAG: ```python RAGsSC.py```.
 (Before running ```python RAGsSC.py```, please make sure that the full dataset has been downloaded in Google Drive and saved in the ```data/``` directory.)
 
 
+## Results
+<div align="center">
+<img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/result1.png" width="85%" height="85%" />
+<br>
+Figure 2: The node cluster results of RAGSC
+</div>
 
