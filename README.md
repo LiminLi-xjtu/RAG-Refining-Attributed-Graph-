@@ -72,3 +72,27 @@ Figure 2: The node cluster results of RAGSC
     <b>Figure 3: The edges in the graph indicate citation relationships between papers.</b>
 </div>
 
+
+<div align="center">
+    <figure>
+        <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-raw.png" width="20%" height="20%" />
+        <figcaption>cora-raw</figcaption>
+    </figure>
+    <figure>
+        <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-RAG.png" width="20%" height="20%" />
+        <figcaption>cora-RAG</figcaption>
+    </figure>
+    <figure>
+        <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-raw.png" width="20%" height="20%" />
+        <figcaption>acm-raw</figcaption>
+    </figure>
+    <figure>
+        <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-RAG.png" width="20%" height="20%" />
+        <figcaption>acm-RAG</figcaption>
+    </figure>
+    <br>
+    <b>Figure 3: t-SNE demonstration of the raw and RAG filtered
+node features after spectral clustering.</b>
+</div>
+
+
