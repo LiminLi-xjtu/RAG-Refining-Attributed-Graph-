@@ -43,7 +43,7 @@ Our RAG model is in ```model.py```.
 <div align="center">
 <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/multi-stageRAG.png" width="75%" height="75%" />
 <br>
-图1：多阶段RAG的过程
+Figure 1: The process of multi-stage RAG
 </div>
 
 ## Quick Start
