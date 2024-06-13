@@ -63,6 +63,7 @@ Figure 2: The node cluster results of RAGSC
 <div align="center">
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-raw.png" width="30%" height="30%" />
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-RAG.png" width="30%" height="30%" />
+    <br>
     <b>Figure 3: t-SNE demonstration of the raw and RAG filtered
 node features of Cora after spectral clustering.</b>
 </div>
@@ -84,12 +85,9 @@ node features of ACM after spectral clustering.</b>
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/wiki-raw.png" width="30%" height="30%" />
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/wiki-RAG.png" width="30%" height="30%" />
     <br>
-    <b>cora-raw</b>
-    <b>cora-RAG</b>
-    <b>acm-raw</b>
     <br>
     <b>Figure 3: t-SNE demonstration of the raw and RAG filtered
-node features of Cora after spectral clustering.</b>
+node features of Wiki after spectral clustering.</b>
 </div>
 
 
