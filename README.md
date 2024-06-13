@@ -44,3 +44,4 @@ Our RAG model is in ```model.py```.
 Running node clustering of RAG: ```python RAGSC.py```.
 
 Running node clustering of multi-stage RAG: ```python RAGsSC.py```.
+(Before running ```python RAGsSC.py```, please make sure that the full dataset has been downloaded in Google Drive and saved in the ```data/``` directory.)
