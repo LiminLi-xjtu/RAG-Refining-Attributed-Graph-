@@ -60,3 +60,15 @@ Running node clustering of multi-stage RAG: ```python RAGsSC.py```.
 Figure 2: The node cluster results of RAGSC
 </div>
 
+<div align="center">
+    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-raw.png" width="30%" height="30%" />
+    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-RAG.png" width="30%" height="30%" />
+    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-raw.png" width="30%" height="30%" />
+    <br>
+    <b>cora-raw</b>
+    <b>cora-RAG</b>
+    <b>acm-raw</b>
+    <br>
+    <b>Figure 3: The edges in the graph indicate citation relationships between papers.</b>
+</div>
+
