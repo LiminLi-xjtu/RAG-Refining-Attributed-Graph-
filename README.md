@@ -63,36 +63,35 @@ Figure 2: The node cluster results of RAGSC
 <div align="center">
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-raw.png" width="30%" height="30%" />
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-RAG.png" width="30%" height="30%" />
+    <b>Figure 3: t-SNE demonstration of the raw and RAG filtered
+node features of Cora after spectral clustering.</b>
+</div>
+
+
+<div align="center">
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-raw.png" width="30%" height="30%" />
+    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-RAG.png" width="30%" height="30%" />
     <br>
     <b>cora-raw</b>
     <b>cora-RAG</b>
     <b>acm-raw</b>
     <br>
-    <b>Figure 3: The edges in the graph indicate citation relationships between papers.</b>
+    <b>Figure 3: t-SNE demonstration of the raw and RAG filtered
+node features of ACM after spectral clustering.</b>
 </div>
-
 
 <div align="center">
-    <figure>
-        <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-raw.png" width="20%" height="20%" />
-        <figcaption>cora-raw</figcaption>
-    </figure>
-    <figure>
-        <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-RAG.png" width="20%" height="20%" />
-        <figcaption>cora-RAG</figcaption>
-    </figure>
-    <figure>
-        <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-raw.png" width="20%" height="20%" />
-        <figcaption>acm-raw</figcaption>
-    </figure>
-    <figure>
-        <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-RAG.png" width="20%" height="20%" />
-        <figcaption>acm-RAG</figcaption>
-    </figure>
+    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/wiki-raw.png" width="30%" height="30%" />
+    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/wiki-RAG.png" width="30%" height="30%" />
+    <br>
+    <b>cora-raw</b>
+    <b>cora-RAG</b>
+    <b>acm-raw</b>
     <br>
     <b>Figure 3: t-SNE demonstration of the raw and RAG filtered
-node features after spectral clustering.</b>
+node features of Cora after spectral clustering.</b>
 </div>
+
+
 
 
