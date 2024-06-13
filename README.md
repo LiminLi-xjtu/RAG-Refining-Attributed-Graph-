@@ -25,7 +25,7 @@ If you are using Anaconda, an identical environment can also be created by using
 ## Datasets
 The 6 datasets we used: Cora, Citeseer, ACM, WiKi, DBLP, PubMed.
 The ```data/``` holds several small datasets that can be used as demos. 
-The full dataset can be accessed at
+The full dataset can be accessed at https://drive.google.com/drive/folders/10Y2uqmQy21HPfgKBvxMov1svskxkOxXf?usp=sharing .
 If you want to run the full dataset, just download all the data and put them in the ```data/``` directory.
 
 All original attributed graph datasets is ```cora.mat```, ```citeseer.mat```, ```acm.mat```, ```dblp.mat```, ```pubmed.mat```. 
