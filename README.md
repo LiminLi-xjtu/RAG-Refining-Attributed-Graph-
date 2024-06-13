@@ -4,6 +4,7 @@ approximation and subspace learning**.
 
 ## Environments
 The proposed RAG is implemented with python 3.8.8 on CPU.
+All results in the paper are from running on an i7-10700 CPU.
 
 No GPU required!
 Use of the GPU may cause slowdowns.
