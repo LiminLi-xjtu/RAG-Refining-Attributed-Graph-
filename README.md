@@ -41,7 +41,7 @@ These can used as the inputs in the multi-stage RAG ```RAGsSC.py```.
 Our RAG model is in ```model.py```.
 
 <div align="center">
-<img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/multi-stageRAG.png" width="75%" height="75%" />
+<img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/multi-stageRAG.png" width="85%" height="85%" />
 <br>
 Figure 1: The process of multi-stage RAG
 </div>
