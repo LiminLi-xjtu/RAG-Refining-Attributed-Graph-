@@ -81,8 +81,8 @@ node features of ACM after spectral clustering.</b>
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/wiki-raw.png" width="30%" height="30%" />
     <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/wiki-RAG.png" width="30%" height="30%" />
     <br>
-    <b>Figure 3: t-SNE demonstration of the raw and RAG filtered
-node features of Wiki after spectral clustering.</b>
+    Figure 5: t-SNE demonstration of the raw and RAG filtered
+node features of Wiki after spectral clustering.
 </div>
 
 
