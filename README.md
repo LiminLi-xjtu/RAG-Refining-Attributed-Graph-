@@ -2,10 +2,13 @@
 An official source code for paper **Attributed Graph Refinement via low rank
 approximation and subspace learning**.
 
-##Environments
+## Environments
 The proposed RAG is implemented with python 3.8.8 on CPU.
+
 No GPU required!
-###Packages
+Use of the GPU may cause slowdowns.
+
+### Packages
 + numpy==1.22.4
 + scipy==1.6.2
 + sklearn==0.24.1
@@ -19,21 +22,25 @@ If you are using Anaconda, an identical environment can also be created by using
 ```conda env create -f environment.yml```
 
 
-##Datasets
-The 6 datasets we used: Cora, Citeseer, ACM, WiKi, DBLP, PubMed are all included in the ```data/``` directory.
+## Datasets
+The 6 datasets we used: Cora, Citeseer, ACM, WiKi, DBLP, PubMed.
+The ```data/``` holds several small datasets that can be used as demos. 
+The full dataset can be accessed at
+If you want to run the full dataset, just download all the data and put them in the ```data/``` directory.
+
 All original attributed graph datasets is ```cora.mat```, ```citeseer.mat```, ```acm.mat```, ```dblp.mat```, ```pubmed.mat```. 
 
-```cora_sorted.npz``` is the version after sorting by sample category, conveniently used to visualize matrix block diagonal effects.
+```cora_sorted.npz``` and ```citeseer_sorted.npz``` is the version after sorting by sample category, conveniently used to visualize matrix block diagonal effects.
 
 ```...Z1.npz``` is the result Z of completing the first stage of RAG for each dataset.
 ```...Z2.npz``` is the result Z of completing the second stage of RAG for each dataset.
 These can used as the inputs in the multi-stage RAG ```RAGsSC.py```.
 
-##Model
+## Model
 Our RAG model is in ```model.py```.
 
 
-##Quick Start
+## Quick Start
 Running node clustering of RAG: ```python RAGSC.py```.
 
 Running node clustering of multi-stage RAG: ```python RAGsSC.py```.
