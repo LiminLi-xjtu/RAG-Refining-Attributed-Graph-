@@ -40,51 +40,20 @@ These can used as the inputs in the multi-stage RAG ```RAGsSC.py```.
 ## Model
 Our RAG model is in ```model.py```.
 
-<div align="center">
-<img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/multi-stageRAG.png" width="85%" height="85%" />
-<br>
-Figure 1: The process of multi-stage RAG
-</div>
 
 ## Quick Start
-Running node clustering of RAG: ```python RAGSC.py```.
+Running node clustering of RAG: ```python RAGSC.py```. Just select the dataset you need to run.
 
-Running node clustering of multi-stage RAG: ```python RAGsSC.py```.
+Running node clustering of multi-stage RAG: ```python RAGsSC.py```. You need to select the dataset and stage number you want.
+
 (Before running ```python RAGsSC.py```, please make sure that the full dataset has been downloaded in Google Drive and saved in the ```data/``` directory.)
 
 
-## Results
-<div align="center">
-<img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/result1.png" width="85%" height="85%" />
-<br>
-Figure 2: The node cluster results of RAGSC
-</div>
+## Simulation Experiments
+```subspace simulation/``` contains all subspace attributed graph simulation experiments.
+```generate_data_X=XZ.py``` is to generate different noise simulation attributed graphs.
+```xzdata.npz``` is the simulated attributed graph data we used in paper.
 
-<div align="center">
-    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-raw.png" width="30%" height="30%" />
-    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/cora-RAG.png" width="30%" height="30%" />
-    <br>
-    Figure 3: t-SNE demonstration of the raw and RAG filtered
-node features of Cora after spectral clustering.
-</div>
+Running RAG on simulated attributed graph: ```python RAG.py```.
 
-
-<div align="center">
-    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-raw.png" width="30%" height="30%" />
-    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/acm-RAG.png" width="30%" height="30%" />
-    <br>
-    Figure 4: t-SNE demonstration of the raw and RAG filtered
-node features of ACM after spectral clustering.
-</div>
-
-<div align="center">
-    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/wiki-raw.png" width="30%" height="30%" />
-    <img src="https://github.com/LiminLi-xjtu/RAG_model/blob/master/github-images/wiki-RAG.png" width="30%" height="30%" />
-    <br>
-    Figure 5: t-SNE demonstration of the raw and RAG filtered
-node features of Wiki after spectral clustering.
-</div>
-
-
-
-
+Running SLSA on simulated attributed graph: ```python SLSA_A+X.py```.
